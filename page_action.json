@@ -1,0 +1,51 @@
+{
+    "pages": [
+        {
+            "pageName": "user", 
+            "actions": [
+                {
+                    "actionName": "Create User", 
+                    "targetURL": "index/create_user"
+                }, 
+                {
+                    "actionName": "Update User", 
+                    "targetURL": "index/update_user"
+                }, 
+                {
+                    "actionName": "Change User Status", 
+                    "targetURL": "index/change_user_status"
+                }, 
+                {
+                    "actionName": "Display User Info", 
+                    "targetURL": "index/display_user"
+                }
+            ]
+        }, 
+        {
+            "pageName": "member", 
+            "actions": [
+                {
+                    "actionName": "Create Member", 
+                    "targetURL": "index/create_member"
+                }, 
+                {
+                    "actionName": "Update Member", 
+                    "targetURL": "index/update_member"
+                }, 
+                {
+                    "actionName": "Change Member Status", 
+                    "targetURL": "index/change_member_status"
+                }, 
+                {
+                    "actionName": "Display Member Info", 
+                    "targetURL": "index/display_member"
+                }, 
+                {
+                    "actionName": "Add Users to Member", 
+                    "targetURL": "index/add_to_member"
+                }
+            ]
+        }
+    ], 
+    "APIname": "Action Discovery"
+}
