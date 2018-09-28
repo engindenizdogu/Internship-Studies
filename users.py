@@ -1,0 +1,27 @@
+# Dummy users, assumed to be in disk
+users = [
+    {'id': '0', 'username': 'user0', 'status': '1'},
+    {'id': '1', 'username': 'user1', 'status': '0'},
+    {'id': '2', 'username': 'user2', 'status': '0'},
+    {'id': '3', 'username': 'user3', 'status': '1'},
+    {'id': '4', 'username': 'user4', 'status': '1'},
+    {'id': '5', 'username': 'user5', 'status': '0'},
+    {'id': '6', 'username': 'user6', 'status': '1'},
+    {'id': '7', 'username': 'user7', 'status': '1'},
+    {'id': '8', 'username': 'user8', 'status': '1'},
+    {'id': '9', 'username': 'user9', 'status': '0'},
+    {'id': '10', 'username': 'user10', 'status': '1'},
+    {'id': '11', 'username': 'user11', 'status': '1'},
+    {'id': '12', 'username': 'user12', 'status': '1'},
+    {'id': '13', 'username': 'user13', 'status': '0'},
+    {'id': '14', 'username': 'user14', 'status': '1'},
+    {'id': '15', 'username': 'user15', 'status': '1'},
+    {'id': '16', 'username': 'user16', 'status': '0'},
+    {'id': '17', 'username': 'user17', 'status': '1'},
+    {'id': '18', 'username': 'user18', 'status': '1'},
+    {'id': '19', 'username': 'user19', 'status': '1'},
+    {'id': '20', 'username': 'user20', 'status': '1'},
+    {'id': '21', 'username': 'user21', 'status': '0'},
+    {'id': '22', 'username': 'user22', 'status': '1'},
+    {'id': '23', 'username': 'user23', 'status': '1'}
+]
