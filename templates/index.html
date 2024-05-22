@@ -1,0 +1,41 @@
+<title> Simple Cache </title>
+
+<div align=middle>
+    {% with messages = get_flashed_messages() %} {% if messages %}
+    <ul>
+        {%for message in messages %}
+        <p>
+            <span style="color: royalblue;">{{ message }}</span>
+        </p>
+        {% endfor %}
+    </ul>
+    {% endif %} {% endwith %}
+</div>
+<hr>
+<p>
+    <i> Algorithm: {{ algorithm }} </i>
+    <br> <i> Total cache size: {{ cache_size }} </i>
+    <br> <i> Current cache status: {{ cache_status }} / {{ cache_size }} </i>
+</p>
+
+<div align=middle>
+    <table cellspacing=35 border=0>
+        <th> ID </th>
+        <th> User </th>
+        <th> Cache Status </th>
+
+        {%for user in users %}
+
+        <tr align=middle>
+            <td align=middle> {{ user.id }} </td>
+            <td align=middle> {{ user.username }} </td>
+            <td align=middle> {{ user.status }} </td>
+            <td>
+                <a href="/change_status/{{user.id}}/{{user.status}}"> Change status </a>
+            </td>
+        </tr>
+
+        {% endfor %}
+    </table>
+</div>
+<hr>
